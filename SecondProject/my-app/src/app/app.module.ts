@@ -9,6 +9,7 @@ import { HomeModule } from './home/home.module';
 import { ContactModule } from './contact/contact.module';
 import { ProjectsModule } from './projects/projects.module';
 import { ServicesModule } from './services/services.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ServicesModule } from './services/services.module';
     HomeModule,
     ContactModule,
     ProjectsModule,
-    ServicesModule
+    ServicesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
