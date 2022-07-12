@@ -6,11 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-home.component.css']
 })
 export class ContactHomeComponent implements OnInit {
-  isUnchanged = true;
-  onCancel(event?:KeyboardEvent){
-    const evtMsg = event ? ' Event Target is ' + (event.target as HTMLElement).textContent : '';
-    alert('Cancelled.' + evtMsg);
-  }
 
   constructor() { }
 
