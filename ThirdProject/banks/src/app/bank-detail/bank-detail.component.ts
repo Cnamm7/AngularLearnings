@@ -9,7 +9,7 @@ import { Bank } from '../bank';
 export class BankDetailComponent implements OnInit {
   @Input() bank: Bank;
 
-  constructor() { this.bank = {id: 0, name: ""};}
+  constructor() { this.bank = {id: 0, name: "", website: ""};}
 
   ngOnInit(): void{}
 }

@@ -1,0 +1,26 @@
+<app-screen [button]="selectedButton"></app-screen>
+<p class="seperatorLine">_______________________________________________________________</p>
+<ul class="buttons">
+    <table  *ngFor="let button of numberButtons"
+    (click)="onSelect(button)"
+    [class.selected]="button===selectedButton">
+    <tr>
+        <td>
+            {{button.numberFunction}}
+        </td>
+    </tr>
+    </table>
+</ul>
+<ul class="functions">
+    <table  *ngFor="let button of functionButtons"
+    (click)="onSelect(button)"
+    [class.selected]="button===selectedButton">
+    <tr>
+        <td>
+            {{button.functionFunction}}
+        </td>
+    </tr>
+    </table>
+</ul>
+
+

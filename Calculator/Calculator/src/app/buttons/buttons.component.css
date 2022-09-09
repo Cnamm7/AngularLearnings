@@ -1,0 +1,12 @@
+.buttons table.selected {
+    background-color: #CFD8DC;
+    color: rgb(192, 138, 138);
+}
+.functions table.selected {
+    background-color: #09b3fc;
+    color: rgb(250, 15, 15);
+}
+.seperatorLine {
+    position: middle;
+    text-align: center;
+}

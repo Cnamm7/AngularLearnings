@@ -1,15 +1,13 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
 
 import { HomeModule } from './home/home.module';
 import { ContactModule } from './contact/contact.module';
 import { ProjectsModule } from './projects/projects.module';
 import { ServicesModule } from './services/services.module';
-import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,8 +19,7 @@ import { FormsModule } from '@angular/forms';
     HomeModule,
     ContactModule,
     ProjectsModule,
-    ServicesModule,
-    FormsModule
+    ServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

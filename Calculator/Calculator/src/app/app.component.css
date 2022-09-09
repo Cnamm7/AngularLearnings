@@ -1,0 +1,13 @@
+.title {
+    position: middle;
+    color: rgb(106, 66, 66);
+    text-align: center;
+}
+#buttons {
+    position: middle;
+    text-align: center;
+}
+#screen {
+    position: middle;
+    text-align: center;
+}
