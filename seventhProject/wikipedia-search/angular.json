@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "lazyloading-example": {
+    "wikipedia-search": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/lazyloading-example",
+            "outputPath": "dist/wikipedia-search",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "lazyloading-example:build:production"
+              "browserTarget": "wikipedia-search:build:production"
             },
             "development": {
-              "browserTarget": "lazyloading-example:build:development"
+              "browserTarget": "wikipedia-search:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "lazyloading-example:build"
+            "browserTarget": "wikipedia-search:build"
           }
         },
         "test": {
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "baedb15b-c2c6-43d4-aabd-ab6ff4ae1b99"
+    "analytics": false
   }
 }
